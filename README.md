@@ -6,7 +6,12 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/luizfxdev/desafio_326?color=48ff00&label=Linguagens)
 ![GitHub top language](https://img.shields.io/github/languages/top/luizfxdev/desafio_326?color=00ffd5&label=Linguagem%20Principal)
 ![GitHub stars](https://img.shields.io/github/stars/luizfxdev/desafio_326?style=social)
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
 <img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
+
 
 ---
 
