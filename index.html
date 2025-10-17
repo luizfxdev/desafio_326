@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJ Sona - Decodificador de Melodias</title>
+
+    <!-- Favicon Completo -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16 32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="main-container">
+      <h1 class="title">🎧 A Melodia Perdida do Universo</h1>
+      <p class="subtitle">Ajude DJ Sona a restaurar a sequência das notas musicais</p>
+
+      <!-- Input para entrada de dados -->
+      <div class="input-section">
+        <label for="encrypted-notes">Notas Embaralhadas:</label>
+        <input
+          type="text"
+          id="encrypted-notes"
+          placeholder="ifmmp, xpsme"
+          aria-label="Digite as notas embaralhadas separadas por vírgula"
+        />
+
+        <label for="shift-code">Código de Embaralhamento:</label>
+        <input type="number" id="shift-code" placeholder="1" aria-label="Digite o código de deslocamento" />
+      </div>
+
+      <!-- Área dos botões -->
+      <div class="button-section">
+        <button class="glow-on-hover" id="decrypt-btn" type="button">DECIFRAR</button>
+        <button class="glow-on-hover" id="return-btn" type="button">RETORNAR</button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h2>📊 Resultado da Decodificação</h2>
+        <div id="result-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
