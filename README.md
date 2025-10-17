@@ -154,9 +154,35 @@ Sinta-se livre para estudar, modificar e remixar!
 
 ---
 
+## 🙏 Agradecimentos 
+
+### 🎮 Reconhecimento à Riot Games
+
+Gostaríamos de expressar nossa mais profunda gratidão à Riot Games por criar um universo tão rico e inspirador como League of Legends. A complexidade, criatividade e profundidade dos personagens, especialmente DJ Sona, foram fundamentais para a concepção deste projeto educacional.
+
+### ⚖️ Aviso Legal
+### 🚨 Isenção de Responsabilidade
+
+Este projeto, "Desafio 326: A Melodia Perdida do Universo", é EXCLUSIVAMENTE UM PROJETO EDUCACIONAL e não possui qualquer vinculação oficial com a Riot Games. Todos os direitos autorais, marcas registradas e arte são propriedade intelectual da Riot Games.
+
+### 🎨 Uso de Imagens e Conteúdo
+
+**Splash Art de DJ Sona**
+**Referências a League of Legends**
+**Música REMIX RUMBLE**
+
+São utilizados **APENAS PARA FINS EDUCACIONAIS E DE DEMONSTRAÇÃO**, sem intenção de infringir direitos autorais ou comerciais.
+
+### 📢 Declaração Oficial
+
+Não há intenção de uso comercial
+Todo conteúdo é tributo à criatividade da Riot Games
+Projeto desenvolvido por fãs, para fãs e estudantes
+
 ## 👨‍💻 Desenvolvedor
 
 **Luiz Felipe Santos de Oliveira**
+
 🔗 [GitHub – @luizfxdev](https://github.com/luizfxdev)
 
 📋 [Linkedin](https://www.linkedin.com/in/luizfxdev)
