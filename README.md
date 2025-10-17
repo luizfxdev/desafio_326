@@ -158,6 +158,7 @@ Sinta-se livre para estudar, modificar e remixar!
 
 **Luiz Felipe Santos de Oliveira**
 🔗 [GitHub – @luizfxdev](https://github.com/luizfxdev)
+
 📋 [Linkedin](https://www.linkedin.com/in/luizfxdev)
 
 > “O código é a batida. A lógica é o ritmo.
