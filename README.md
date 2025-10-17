@@ -1,13 +1,7 @@
 
 # 🎧 Desafio 326 — A Melodia Perdida do Universo (DJ Sona Edition)
 
-<p align="center">
-  <img src="https://img.shields.io/github/repo-size/luizfxdev/desafio_326?color=00ffd5&label=Tamanho%20do%20Repositório" alt="Tamanho do Repositório">
-  <img src="https://img.shields.io/github/last-commit/luizfxdev/desafio_326?color=ff69b4&label=Último%20Commit" alt="Último Commit">
-  <img src="https://img.shields.io/github/languages/count/luizfxdev/desafio_326?color=48ff00&label=Linguagens" alt="Linguagens">
-  <img src="https://img.shields.io/github/languages/top/luizfxdev/desafio_326?color=00ffd5&label=Linguagem%20Principal" alt="Linguagem Principal">
-  <img src="https://img.shields.io/github/stars/luizfxdev/desafio_326?style=social" alt="GitHub Stars">
-</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
