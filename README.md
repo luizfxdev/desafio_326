@@ -163,7 +163,7 @@ Gostaríamos de expressar nossa mais profunda gratidão à Riot Games por criar 
 ### ⚖️ Aviso Legal
 ### 🚨 Isenção de Responsabilidade
 
-Este projeto, "Desafio 326: A Melodia Perdida do Universo", é EXCLUSIVAMENTE UM PROJETO EDUCACIONAL e não possui qualquer vinculação oficial com a Riot Games. Todos os direitos autorais, marcas registradas e arte são propriedade intelectual da Riot Games.
+Este projeto, "Desafio 326: A Melodia Perdida do Universo", é **EXCLUSIVAMENTE UM PROJETO EDUCACIONAL** e não possui qualquer vinculação oficial com a Riot Games. Todos os direitos autorais, marcas registradas e arte são propriedade intelectual da Riot Games.
 
 ### 🎨 Uso de Imagens e Conteúdo
 
