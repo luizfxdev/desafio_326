@@ -6,7 +6,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/luizfxdev/desafio_326?color=48ff00&label=Linguagens)
 ![GitHub top language](https://img.shields.io/github/languages/top/luizfxdev/desafio_326?color=00ffd5&label=Linguagem%20Principal)
 ![GitHub stars](https://img.shields.io/github/stars/luizfxdev/desafio_326?style=social)
-![League of Legends]<img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
+<img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
 
 ---
 
