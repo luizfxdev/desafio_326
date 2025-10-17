@@ -1,10 +1,4 @@
-Perfeito 🎶
-Abaixo está uma versão aprimorada e formatada do **README** para o repositório [`desafio_326`](https://github.com/luizfxdev/desafio_326).
-O texto foi otimizado para GitHub (com emojis, badges e seções claras), e inclui menção aos desafios enfrentados, à ambientação artística (DJ Sona e REMIX RUMBLE), e à estrutura técnica do projeto.
 
----
-
-````markdown
 # 🎧 Desafio 326 — A Melodia Perdida do Universo (DJ Sona Edition)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/luizfxdev/desafio_326?color=00ffd5&label=Tamanho%20do%20Repositório)
