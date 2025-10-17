@@ -1,16 +1,21 @@
 
 # 🎧 Desafio 326 — A Melodia Perdida do Universo (DJ Sona Edition)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/luizfxdev/desafio_326?color=00ffd5&label=Tamanho%20do%20Repositório)
-![GitHub last commit](https://img.shields.io/github/last-commit/luizfxdev/desafio_326?color=ff69b4&label=Último%20Commit)
-![GitHub language count](https://img.shields.io/github/languages/count/luizfxdev/desafio_326?color=48ff00&label=Linguagens)
-![GitHub top language](https://img.shields.io/github/languages/top/luizfxdev/desafio_326?color=00ffd5&label=Linguagem%20Principal)
-![GitHub stars](https://img.shields.io/github/stars/luizfxdev/desafio_326?style=social)
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/luizfxdev/desafio_326?color=00ffd5&label=Tamanho%20do%20Repositório" alt="Tamanho do Repositório">
+  <img src="https://img.shields.io/github/last-commit/luizfxdev/desafio_326?color=ff69b4&label=Último%20Commit" alt="Último Commit">
+  <img src="https://img.shields.io/github/languages/count/luizfxdev/desafio_326?color=48ff00&label=Linguagens" alt="Linguagens">
+  <img src="https://img.shields.io/github/languages/top/luizfxdev/desafio_326?color=00ffd5&label=Linguagem%20Principal" alt="Linguagem Principal">
+  <img src="https://img.shields.io/github/stars/luizfxdev/desafio_326?style=social" alt="GitHub Stars">
+</p>
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
-<img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
+  <img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
+</p>
+
 
 
 ---
