@@ -187,11 +187,12 @@ Projeto desenvolvido por fãs, para fãs e estudantes
 
 📋 [Linkedin](https://www.linkedin.com/in/luizfxdev)
 
-> “O código é a batida. A lógica é o ritmo.
-> E a harmonia… é o universo recomposto por DJ Sona.” 🎧
+
 
 ```
+> “O código é a batida. A lógica é o ritmo.
+> E a harmonia… é o universo recomposto por DJ Sona.” 🎧
 ```
 ---
 
-*"Abram as cortinas. Estou pronto."*
+
