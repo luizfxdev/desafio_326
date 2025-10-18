@@ -1,8 +1,6 @@
 
 # 🎧 Desafio 326 — A Melodia Perdida do Universo (DJ Sona Edition)
 
-
-
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
@@ -10,194 +8,450 @@
   <img src="https://img.shields.io/badge/League%20of%20Legends-D32936?style=for-the-badge&logo=leagueoflegends&logoColor=white" alt="League of Legends Badge">
 </p>
 
-
-
----
-
-## 🌌 Contexto do Desafio
-
-**A Melodia Perdida do Universo — Edição DJ Sona** é um desafio temático ambientado no universo de **League of Legends**.  
-A lendária **DJ Sona**, guardiã das vibrações cósmicas, teve suas melodias corrompidas por um bug digital.  
-Sua missão como programador é decifrar e restaurar a sequência original das notas musicais, garantindo que o ritmo do cosmos continue em perfeita harmonia. 🎶
+<p align="center">
+  <img src="https://img.shields.io/github/license/luizfxdev/desafio_326?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/status-completed-success?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="Version">
+</p>
 
 ---
 
-## 🎮 Enredo do Desafio
+## 📋 Índice
 
-> No universo pulsante de League of Legends, DJ Sona é a guardiã das vibrações cósmicas que mantêm o ritmo do mundo.  
-> Porém, um bug embaralhou as notas da sua grandiosa mixagem!  
-> Sua tarefa é reconstruir a melodia — cada letra foi deslocada no alfabeto por um valor secreto.  
-> Restaure o remix e mantenha o baile intergaláctico vivo! 🌠
-
-### 🧩 Entrada
-- Um **array de strings**, onde cada string representa uma nota embaralhada.  
-- Um **número inteiro** representando o código de deslocamento.
-
-### 🔓 Saída Esperada
-- Uma **string única** com a melodia decifrada.
-
-#### Exemplo:
-```js
-Entrada: ["ifmmp", "xpsme"], código: 1
-Saída: "hello world"
-````
+- [🌌 Sobre o Desafio](#-sobre-o-desafio)
+- [🎮 Enredo](#-enredo)
+- [✨ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias](#️-tecnologias)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [💡 Exemplos de Uso](#-exemplos-de-uso)
+- [🧮 Algoritmo](#-algoritmo)
+- [🎨 Design e UX](#-design-e-ux)
+- [🧠 Desafios Técnicos](#-desafios-técnicos)
+- [🤝 Contribuindo](#-contribuindo)
+- [⚖️ Licença e Avisos](#️-licença-e-avisos)
+- [👨‍💻 Autor](#-autor)
 
 ---
 
-## 🧠 Dificuldades e Aprendizados
+## 🌌 Sobre o Desafio
 
-Durante o desenvolvimento, enfrentei desafios como:
+**A Melodia Perdida do Universo** é um desafio de programação temático ambientado no universo de **League of Legends**, onde você auxilia a lendária **DJ Sona** a restaurar suas melodias cósmicas corrompidas por um bug digital.
 
-* 🧩 **Erros lógicos no algoritmo** de descriptografia, exigindo ajustes no cálculo de *charCodeAt()* e nos limites do alfabeto.
-* 🎨 **Conflitos de estilo e z-index** entre o vídeo de fundo e os componentes da interface, que precisaram de um refinado controle de camadas e responsividade.
-* 🔊 **Sincronização de áudio e elementos visuais**, garantindo uma experiência imersiva sem travamentos.
+### 🎯 Objetivo
 
-Esses obstáculos contribuíram para o aprimoramento das habilidades em **debugging**, **animação CSS avançada** e **estruturação modular de scripts.**
+Implementar um **decodificador de cifra de César** que restaure sequências de notas musicais embaralhadas, aplicando conceitos de:
 
----
-
-## 🎵 Inspiração Artística
-
-* **Background animado:** splash art da skin *DJ Sona*, de *League of Legends*
-* **Tema musical:** 🎶 *REMIX RUMBLE ft. Steve Aoki* — tema principal do modo *TFT (Teamfight Tactics)*
-
-Essa ambientação foi escolhida para transmitir o espírito eletrônico e cósmico da personagem.
+- Manipulação de strings e arrays
+- Algoritmos de criptografia básica
+- Operações com códigos ASCII
+- Desenvolvimento de interfaces interativas
 
 ---
 
-## 🧩 Estrutura do Projeto
+## 🎮 Enredo
+
+> *No universo pulsante de League of Legends, DJ Sona é a guardiã das vibrações cósmicas que mantêm o ritmo do mundo em perfeita harmonia. Mas um bug digital embaralhou as notas da sua grandiosa mixagem, ameaçando romper o equilíbrio das pistas intergalácticas!* 🌌
+> 
+> *Sua missão como programador é restaurar a sequência correta. Cada letra foi deslocada no alfabeto por um valor secreto. Só um verdadeiro hacker musical pode decifrar e remontar a melodia original!*
+
+### 🧩 Especificação Técnica
+
+**Entrada:**
+- Um conjunto de palavras separadas por vírgula (notas embaralhadas)
+- Um número inteiro representando o código de deslocamento
+
+**Saída:**
+- A melodia decifrada, mostrando o processo completo de decodificação
+
+**Exemplo:**
+```
+Entrada: ifmmp, xpsme
+Código: 1
+Saída: hello world
+```
+
+---
+
+## ✨ Funcionalidades
+
+### 🎛️ Interface Interativa
+- ✅ Campo de entrada para notas embaralhadas (formato simples: palavra1, palavra2)
+- ✅ Campo numérico para código de deslocamento
+- ✅ Botões animados com efeito glow arco-íris
+- ✅ Validação de entrada em tempo real
+
+### 📊 Visualização de Resultados
+- ✅ Exibição detalhada do processo de decodificação
+- ✅ Conversão letra por letra com códigos ASCII
+- ✅ Resultado final destacado com estilo especial
+- ✅ Scroll automático para resultados extensos
+
+### 🎵 Experiência Imersiva
+- ✅ Vídeo de fundo em tela cheia (splash art DJ Sona)
+- ✅ Trilha sonora temática (REMIX RUMBLE ft. Steve Aoki)
+- ✅ Controles de áudio integrados (play/pause)
+- ✅ Design futurista com cores neon
+
+### 📱 Responsividade
+- ✅ Layout adaptável para desktop, tablet e mobile
+- ✅ Botões reorganizados verticalmente em telas pequenas
+- ✅ Container fluido com largura proporcional
+- ✅ Sem scroll horizontal
+
+---
+
+## 🛠️ Tecnologias
+
+<table>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>HTML5, CSS3, JavaScript (ES6+)</td>
+  </tr>
+  <tr>
+    <td><b>Estilização</b></td>
+    <td>CSS Grid, Flexbox, Animações CSS, Glassmorphism</td>
+  </tr>
+  <tr>
+    <td><b>Recursos</b></td>
+    <td>Web Audio API, HTML5 Video, Custom Scrollbars</td>
+  </tr>
+  <tr>
+    <td><b>Design</b></td>
+    <td>Responsive Design, Mobile-First, Accessibility</td>
+  </tr>
+  <tr>
+    <td><b>Assets</b></td>
+    <td>League of Legends (DJ Sona) - Riot Games</td>
+  </tr>
+</table>
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 desafio_326/
 │
 ├── assets/
-│   ├── background.mp4       # Splash art animada de DJ Sona
-│   ├── theme.mp3            # Tema musical - REMIX RUMBLE ft. Steve Aoki
-│   └── favicon.ico          # Ícone do projeto
+│   ├── background.mp4       # Vídeo de fundo (3840x2160) - Splash art DJ Sona
+│   ├── theme.mp3            # Trilha sonora - REMIX RUMBLE ft. Steve Aoki
+│   └── favicon.ico          # Ícone da aplicação
 │
-├── index.html               # Estrutura da interface principal
-├── styles.css               # Estilização e animações do tema
-└── script.js                # Lógica de descriptografia e interação
+├── index.html               # Estrutura HTML principal
+├── styles.css               # Estilos, animações e responsividade
+├── script.js                # Lógica de decodificação e interatividade
+└── README.md                # Documentação do projeto
 ```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Como Executar
 
-| Tecnologia                      | Finalidade                                      |
-| ------------------------------- | ----------------------------------------------- |
-| ⚙️ **JavaScript (ES6+)**        | Implementação do algoritmo de decodificação     |
-| 🎨 **HTML5**                    | Estruturação semântica da aplicação             |
-| 💅 **CSS3**                     | Efeitos visuais, transições e layout responsivo |
-| 🪩 **League of Legends Assets** | Elementos visuais e trilha sonora               |
+### Pré-requisitos
+- Navegador web moderno (Chrome, Firefox, Edge, Safari)
+- Arquivos de mídia na pasta `assets/`
 
----
-
-## 🚀 Funcionalidades
-
-* Interface interativa com entrada de dados criptografados
-* Botões animados com *glow effect*
-* Decodificação detalhada, exibindo cada passo da transformação
-* Controles de áudio integrados
-* Layout responsivo e imersivo com vídeo de fundo
-
----
-
-## 🧮 Lógica de Descriptografia
-
-```js
-function decryptWord(word, shift) {
-  let decrypted = '';
-  for (let char of word) {
-    if (char >= 'a' && char <= 'z') {
-      let code = char.charCodeAt(0) - shift;
-      while (code < 97) code += 26;
-      decrypted += String.fromCharCode(code);
-    } else decrypted += char;
-  }
-  return decrypted;
-}
-```
-
-O algoritmo aplica um **shift reverso** no alfabeto, restaurando letra por letra da melodia original.
-
----
-
-## 🧱 Como Executar
+### Instalação
 
 ```bash
 # Clone o repositório
 git clone https://github.com/luizfxdev/desafio_326.git
 
-# Acesse a pasta
+# Acesse o diretório
 cd desafio_326
 
-# Abra o arquivo principal no navegador
+# Abra o arquivo no navegador
+# Windows
 start index.html
+
+# macOS
+open index.html
+
+# Linux
+xdg-open index.html
 ```
 
----
-
-## 🤝 Contribuições
-
-Sinta-se livre para contribuir com melhorias no design, lógica ou experiência sonora:
+### Ou use um servidor local:
 
 ```bash
-git checkout -b feature/nova-feature
-git commit -m "Adiciona nova melhoria"
-git push origin feature/nova-feature
-```
+# Python 3
+python -m http.server 8000
 
-Abra um **Pull Request** com sua proposta! 🚀
+# Node.js (http-server)
+npx http-server
+
+# Acesse: http://localhost:8000
+```
 
 ---
 
-## 🪐 Licença
+## 💡 Exemplos de Uso
 
-Distribuído sob a **Licença MIT**.
-Sinta-se livre para estudar, modificar e remixar!
+### Exemplo 1: Mensagem Simples
+```
+Entrada: ifmmp, xpsme
+Código: 1
+Saída: hello world
+```
+
+### Exemplo 2: Username
+```
+Entrada: mvjagyelw
+Código: 1
+Saída: luizfxdev
+```
+
+### Exemplo 3: Tecnologia
+```
+Entrada: gvmmtubdl
+Código: 1
+Saída: fullstack
+```
+
+### Exemplo 4: Linguagem
+```
+Entrada: mdzdvfulsw
+Código: 3
+Saída: javascript
+```
+
+### Exemplo 5: Jogo
+```
+Entrada: ofdjxhriohhjqgv
+Código: 3
+Saída: leagueoflegends
+```
 
 ---
 
-## 🙏 Agradecimentos 
+## 🧮 Algoritmo
 
-### 🎮 Reconhecimento à Riot Games
+### Lógica de Decodificação
 
-Gostaríamos de expressar nossa mais profunda gratidão à Riot Games por criar um universo tão rico e inspirador como League of Legends. A complexidade, criatividade e profundidade dos personagens, especialmente DJ Sona, foram fundamentais para a concepção deste projeto educacional.
+A aplicação utiliza uma **cifra de César reversa**, onde cada letra é deslocada **para trás** no alfabeto:
 
-### ⚖️ Aviso Legal
-### 🚨 Isenção de Responsabilidade
-
-Este projeto, "Desafio 326: A Melodia Perdida do Universo", é **EXCLUSIVAMENTE UM PROJETO EDUCACIONAL** e não possui qualquer vinculação oficial com a Riot Games. Todos os direitos autorais, marcas registradas e arte são propriedade intelectual da Riot Games.
-
-### 🎨 Uso de Imagens e Conteúdo
-
-**Splash Art de DJ Sona**
-**Referências a League of Legends**
-**Música REMIX RUMBLE**
-
-São utilizados **APENAS PARA FINS EDUCACIONAIS E DE DEMONSTRAÇÃO**, sem intenção de infringir direitos autorais ou comerciais.
-
-### 📢 Declaração Oficial
-
-Não há intenção de uso comercial
-Todo conteúdo é tributo à criatividade da Riot Games
-Projeto desenvolvido por fãs, para fãs e estudantes
-
-## 👨‍💻 Desenvolvedor
-
-**Luiz Felipe Santos de Oliveira**
-
-🔗 [GitHub – @luizfxdev](https://github.com/luizfxdev)
-
-📋 [Linkedin](https://www.linkedin.com/in/luizfxdev)
-
-
-
+```javascript
+function decryptWord(word, shift) {
+    let decrypted = '';
+    const steps = [];
+    
+    for (let i = 0; i < word.length; i++) {
+        const char = word[i];
+        const originalCode = char.charCodeAt(0);
+        
+        // Verifica se é letra minúscula
+        if (char >= 'a' && char <= 'z') {
+            let newCode = originalCode - shift;
+            
+            // Ajusta se passar do 'a' (wrap around)
+            while (newCode < 97) {
+                newCode += 26;
+            }
+            
+            const newChar = String.fromCharCode(newCode);
+            decrypted += newChar;
+            
+            // Armazena o passo para visualização
+            steps.push({
+                original: char,
+                originalCode: originalCode,
+                shift: shift,
+                newCode: newCode,
+                result: newChar
+            });
+        } else {
+            // Mantém caracteres não-alfabéticos
+            decrypted += char;
+        }
+    }
+    
+    return { decrypted, steps };
+}
 ```
-> “O código é a batida. A lógica é o ritmo.
-> E a harmonia… é o universo recomposto por DJ Sona.” 🎧
-```
+
+### Complexidade
+- **Tempo:** O(n × m) - onde n é o número de palavras e m é o tamanho médio
+- **Espaço:** O(n × m) - para armazenar resultados e passos
+
 ---
 
-***"Uma nota errada é apenas... um pequeno acidente feliz."***
+## 🎨 Design e UX
+
+### Paleta de Cores
+```css
+--primary-cyan: #00ffd5
+--neon-green: #48ff00
+--electric-blue: #002bff
+--purple-glow: #7a00ff
+--dark-bg: rgba(10, 5, 24, 0.85)
+```
+
+### Efeitos Visuais
+- **Glassmorphism:** `backdrop-filter: blur(15px)`
+- **Neon Glow:** `box-shadow: 0 0 15px rgba(0, 255, 200, 0.4)`
+- **Rainbow Border:** Gradiente arco-íris animado nos botões
+- **Smooth Transitions:** Animações de 0.3s em todos os elementos interativos
+
+### Acessibilidade
+- ✅ Contraste de cores WCAG AA
+- ✅ Labels semânticos em inputs
+- ✅ Navegação por teclado (Tab, Enter)
+- ✅ ARIA labels para tecnologias assistivas
+
+---
+
+## 🧠 Desafios Técnicos
+
+### 🐛 Problemas Enfrentados
+
+#### 1. Algoritmo de Descriptografia
+**Desafio:** Erros no cálculo do deslocamento ao passar dos limites do alfabeto.
+
+**Solução:** Implementação de loop `while` para garantir wrap-around correto:
+```javascript
+while (newCode < 97) {
+    newCode += 26;
+}
+```
+
+#### 2. Vídeo de Fundo
+**Desafio:** Background não ocupava toda a tela, ficando minimizado.
+
+**Solução:** Ajuste de propriedades CSS:
+```css
+#background-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+```
+
+#### 3. Camadas e Z-Index
+**Desafio:** Conflitos entre vídeo, container e controles de áudio.
+
+**Solução:** Hierarquia clara de z-index:
+- Vídeo: `z-index: -1`
+- Container: `z-index: 10`
+- Controles: `z-index: 1000`
+
+#### 4. Formato de Entrada
+**Desafio:** JSON complexo dificulta uso para iniciantes.
+
+**Solução:** Simplificação para entrada por vírgula:
+```javascript
+const encryptedArray = encryptedValue.split(',')
+    .map(word => word.trim())
+    .filter(word => word.length > 0);
+```
+
+### 📚 Aprendizados
+
+- Manipulação avançada de códigos ASCII
+- Técnicas de glassmorphism e design futurista
+- Otimização de performance com vídeos pesados
+- Boas práticas de UX para aplicações temáticas
+- Debugging sistemático de algoritmos
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são muito bem-vindas! Siga os passos:
+
+1. **Fork** o projeto
+2. Crie uma **branch** para sua feature:
+   ```bash
+   git checkout -b feature/minha-feature
+   ```
+3. **Commit** suas mudanças:
+   ```bash
+   git commit -m "✨ Adiciona: Minha nova feature"
+   ```
+4. **Push** para a branch:
+   ```bash
+   git push origin feature/minha-feature
+   ```
+5. Abra um **Pull Request**
+
+### 💡 Ideias para Contribuição
+- 🎨 Novos temas visuais (outras skins de campeões)
+- 🔊 Mais opções de trilha sonora
+- 🧮 Algoritmos de criptografia adicionais (ROT13, Atbash)
+- 🌐 Internacionalização (i18n)
+- ♿ Melhorias de acessibilidade
+- 📱 Progressive Web App (PWA)
+
+---
+
+## ⚖️ Licença e Avisos
+
+### 📜 Licença MIT
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+### 🚨 Aviso Legal - Propriedade Intelectual
+
+**IMPORTANTE:** Este é um projeto **EXCLUSIVAMENTE EDUCACIONAL** sem fins lucrativos.
+
+#### 🎮 Direitos Autorais - Riot Games
+
+Todos os assets visuais, musicais e referências a **League of Legends** são propriedade intelectual da **Riot Games, Inc.**
+
+- ✅ **Splash Art de DJ Sona** - © Riot Games
+- ✅ **Música REMIX RUMBLE ft. Steve Aoki** - © Riot Games
+- ✅ **Marca League of Legends** - © Riot Games
+
+#### 📢 Declaração de Uso
+
+- ✅ Uso exclusivo para fins **educacionais e de demonstração**
+- ✅ Sem intenção comercial ou de infringir direitos autorais
+- ✅ Projeto desenvolvido por fãs, para fãs e estudantes
+- ✅ Não possui vinculação oficial com a Riot Games
+
+#### 🙏 Agradecimentos à Riot Games
+
+Expressamos profunda gratidão à **Riot Games** por criar um universo tão rico e inspirador. A complexidade e criatividade de personagens como **DJ Sona** foram fundamentais para a concepção deste projeto educacional.
+
+> *"Este projeto é uma homenagem à arte e criatividade da Riot Games, desenvolvido com respeito e admiração por seu trabalho."*
+
+---
+
+## 👨‍💻 Autor
+
+<div align="center">
+
+### **Luiz Felipe Santos de Oliveira**
+
+<img src="https://github.com/luizfxdev.png" width="150px" style="border-radius: 50%;" alt="Luiz Felipe"/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/luizfxdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luizfxdev)
+
+---
+
+### 💬 Citação
+
+> *"O código é a batida. A lógica é o ritmo.*  
+> *E a harmonia… é o universo recomposto por DJ Sona."* 🎧
+
+---
+
+### 🎵 Nota Final
+
+***"Uma nota errada é apenas... um pequeno acidente feliz."***  
+*— Bob Ross (adaptado)*
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐ Se este projeto te ajudou, considere deixar uma estrela!**
+
+*Feito com 💜 por [Luiz Felipe](https://github.com/luizfxdev)*
+
+</div>
